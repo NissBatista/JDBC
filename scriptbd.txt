@@ -1,0 +1,14 @@
+
+create database revisoes;
+
+create table veiculos(
+id tinyint AUTOINCREMENT NOT NULL,
+marca varchar(45) NOT NULL,
+modelo varchar(45) NOT NULL,
+ano year,
+estadopneu tinyint,
+tempooleo tinyint,
+estadomotor tinyint,
+cargabateria tinyint,
+PRIMARY KEY(id)
+);
